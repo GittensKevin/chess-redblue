@@ -3,14 +3,12 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgb(205, 255, 202);
-  background-color: #3a4039d1;
+  /* color-scheme: light dark;   */
 
-  font-synthesis: none;
+  /* font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale; */
 }
 
 a {
@@ -29,6 +27,8 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  color: rgb(187, 249, 184);
+  background-color: #1d221ce3;
 }
 
 h1 {

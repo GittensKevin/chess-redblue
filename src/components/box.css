@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     width: 100px;
     height: 100px;
     outline: 2px solid rgb(15, 15, 15);
@@ -13,8 +14,11 @@
 }
 
 @media screen and (max-width: 50em) {
+
+    /* Ajuste necesario para visualizar correcatamente en movil */
     .box {
-        width: 60px;
-        height: 60px;
+        width: 44px;
+        height: 44px;
+        font-size: 10px;
     }
 }
