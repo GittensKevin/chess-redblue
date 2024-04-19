@@ -12,7 +12,7 @@ for (let i = 0; i < 8; i++) {
             board[i][j] =
             {
                 value: `Red`,
-                bgc: `rgb(${Math.floor(Math.random() * 256)}, 20,0)`
+                bgc: `rgb(${Math.floor(Math.random() * (256 - 100) + 100)}, 20,0)`
                 // bgc: `rgb(255, 20,0)`
             }
 
@@ -20,7 +20,7 @@ for (let i = 0; i < 8; i++) {
             board[i][j] =
             {
                 value: `Blue`,
-                bgc: `rgb(0, 20, ${Math.floor(Math.random() * 256)})`
+                bgc: `rgb(0, 20, ${Math.floor(Math.random() * (256 - 100) + 100)})`
                 // bgc: `rgb(0, 20,255)`
             }
         )

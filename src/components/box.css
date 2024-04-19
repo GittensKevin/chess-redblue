@@ -11,3 +11,10 @@
     margin: 0;
     padding: 0;
 }
+
+@media screen and (max-width: 50em) {
+    .box {
+        width: 60px;
+        height: 60px;
+    }
+}
