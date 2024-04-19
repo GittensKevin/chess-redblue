@@ -17,8 +17,8 @@
 
     /* Ajuste necesario para visualizar correcatamente en movil */
     .box {
-        width: 44px;
-        height: 44px;
+        width: 42px;
+        height: 42px;
         font-size: 10px;
     }
 }
